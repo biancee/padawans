@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 1px #000 solid;
+    width: 70%;
+    border-radius: 10px;
+}
+
+fieldset {
+    margin: 10px;
+    border: none;
+}
+
+.first-container {
+    display: flex;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+input[type="text"]::placeholder {
+    color: red;
+}
+
+::placeholder {
+    color: green;
+}

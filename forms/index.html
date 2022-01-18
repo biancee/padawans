@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <form>
+        <div class="first-container">
+            <fieldset>
+                <label for="firstname">Prenom</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Audry" />
+            </fieldset>
+            <fieldset>
+                <label for="lastname">Nom</label>
+                <input type="text" name="lastname" id="lastname" />
+            </fieldset>
+        </div>
+        <div class="second-container">
+            <fieldset>
+                <label for="address">Adresse</label>
+                <input type="text" name="address" id="address">
+            </fieldset>
+            <fieldset>
+                <label for="tel">Telephone</label>
+                <input type="tel" name="tel" id="tel">
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="audry@gmail.com">
+            </fieldset>
+            <fieldset>
+                <label>Region</label>
+                <select name="region" id="region">
+                    <option value="iledefrance">Ile de france</option>
+                    <option value="picardie">Picardie</option>
+                    <option value="languedocroussillon">Languedoc Roussillon</option>
+                    <option value="PACA">PACA</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password">
+            </fieldset>
+        </div>
+    </form>
+
+</body>
+
+</html>
